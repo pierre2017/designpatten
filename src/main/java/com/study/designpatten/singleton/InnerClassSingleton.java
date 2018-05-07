@@ -7,13 +7,13 @@ package com.study.designpatten.singleton;
  */
 public class InnerClassSingleton {
 
-    public static Singleton getInstance() {
+    public static InnerClassSingleton getInstance() {
         return Singleton.singleton;
     }
 
     private static class Singleton {
 
-        protected static Singleton singleton = new Singleton();
+        protected static InnerClassSingleton singleton = new InnerClassSingleton();
 
     }
 }
