@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class BMWBuilder extends CarBuilder {
     private BMWModel bmw = new BMWModel();
 
-    public CarModel getCarModel() {
+    public BMWModel getCarModel() {
         return this.bmw;
     }
 
