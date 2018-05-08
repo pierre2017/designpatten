@@ -28,9 +28,14 @@ public class Client {
 
         //制造多个模型
         Director director = new Director();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             director.getABenzModel().run();
             System.out.println("=====");
+            director.getABmwModel().run();
+            System.out.println("=====");
+            director.getBBenzModel().run();
+            System.out.println("=====");
+            director.getBBmwModel().run();
         }
     }
 }
