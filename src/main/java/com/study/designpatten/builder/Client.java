@@ -36,6 +36,7 @@ public class Client {
             director.getBBenzModel().run();
             System.out.println("=====");
             director.getBBmwModel().run();
+            System.out.println("=====");
         }
     }
 }
