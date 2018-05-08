@@ -13,7 +13,7 @@ public class Client {
         System.out.println("H1型号的悍马是否需要喇叭声响？ 0-不需要 1-需要");
         String type = (new BufferedReader(new InputStreamReader(System.in))).readLine();
         HummerH1Model h1 = new HummerH1Model();
-        if (type.equals("0")) {
+        if (("0").equals(type)) {
             h1.setAlarm(false);
         }
         h1.run();
