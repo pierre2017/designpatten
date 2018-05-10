@@ -4,6 +4,7 @@ import com.study.designpatten.prorotype.nomal.AdvTemplate;
 
 /**
  * Created by pierre on 2018/5/10.
+ *
  */
 public class Mail implements Cloneable {
     //收件人
