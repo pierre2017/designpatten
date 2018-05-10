@@ -6,6 +6,7 @@ import java.util.Random;
 
 /**
  * Created by pierre on 2018/5/10.
+ * 多线程时，其他线程可能更改 设置的值，使用耗费资源较小的浅拷贝
  */
 public class Client {
     //发送账单的数量， 这个值是从数据库中获得
