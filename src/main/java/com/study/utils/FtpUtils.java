@@ -3,7 +3,8 @@ package com.study.utils;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.ftp.FTPReply;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.net.SocketException;
@@ -13,7 +14,7 @@ import java.util.*;
 
 public class FtpUtils {
 
-    private static Logger logger = Logger.getLogger(FtpUtils.class);
+    private static Logger logger = LoggerFactory.getLogger(FtpUtils.class);
 
     /**
      * 上传文件到制定目录
