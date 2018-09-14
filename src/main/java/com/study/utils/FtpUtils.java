@@ -350,9 +350,9 @@ public class FtpUtils {
     }
 
     public static void main(String[] args) throws IOException, Exception {
-        String ftpHost = "121.41.30.78";
-        String ftpUserName = "customerbill";
-        String ftpPassword = "customerbill";
+        String ftpHost = "*.*.*.*";
+        String ftpUserName = "ftpUserName";
+        String ftpPassword = "ftpPassword";
         //		FtpUtils.deleteFile(ftpHost, ftpUserName, ftpPassword, 21,
         //				"/mnt/customerbill/batchpayment/201512150001/",
         //				"S20160510141350201000002-201512150001_1462860812717.xml");
